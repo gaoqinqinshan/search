@@ -2,6 +2,7 @@ package com.search.service.impl;
 
 import com.search.dao.UserDao;
 import com.search.entity.LoginUser;
+import com.search.entity.TreeNode;
 import com.search.entity.User;
 import com.search.service.UserService;
 import com.search.utils.JwtUtil;
@@ -14,6 +15,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
@@ -113,5 +115,16 @@ public class UserServiceImpl implements UserService {
     @Override
     public User getUserByUsername(String username) {
         return userDao.queryOne(username);
+    }
+
+    /**
+     * 获取收藏
+     *
+     * @param username
+     * @return
+     */
+    @Override
+    public List<TreeNode> getFavorite(String username) {
+        return userDao.queryAll(username);
     }
 }

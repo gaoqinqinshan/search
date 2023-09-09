@@ -1,7 +1,9 @@
 package com.search.service;
 
+import com.search.entity.TreeNode;
 import com.search.entity.User;
 
+import java.util.List;
 import java.util.Map;
 
 public interface UserService {
@@ -31,7 +33,8 @@ public interface UserService {
      */
     User getUserByUsername(String username);
 
-/**
- * 获取收藏
- */
+    /**
+     * 获取收藏
+     */
+    List<TreeNode> getFavorite(String username);
 }
