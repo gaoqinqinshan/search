@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="705e0497-dcad-4596-9793-3de72f2949f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/search/dao/RecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/search/entity/Record.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/search/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/search/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/search/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/search/dao/UserDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -100,7 +100,7 @@
       <updated>1694092425915</updated>
       <workItem from="1694092427033" duration="7888000" />
       <workItem from="1694100951044" duration="1623000" />
-      <workItem from="1694163011071" duration="10946000" />
+      <workItem from="1694163011071" duration="17146000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <option name="closed" value="true" />
@@ -134,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694167490456</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="user 部分全部完善">
+      <option name="closed" value="true" />
+      <created>1694248881266</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694248881266</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +154,7 @@
     <MESSAGE value="配置 Config" />
     <MESSAGE value="redis配置" />
     <MESSAGE value="user" />
-    <option name="LAST_COMMIT_MESSAGE" value="user" />
+    <MESSAGE value="user 部分全部完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="user 部分全部完善" />
   </component>
 </project>

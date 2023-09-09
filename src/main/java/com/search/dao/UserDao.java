@@ -7,6 +7,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * 对于user的功能
+ */
 @Repository
 public interface UserDao {
 
