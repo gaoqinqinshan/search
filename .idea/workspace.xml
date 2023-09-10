@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="705e0497-dcad-4596-9793-3de72f2949f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/search/dto/Record.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/search/dto/RecordDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/search/entity/Segmentation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/search/service/RecordSegServe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/search/service/RecordServe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/search/dao/RecordSegDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/search/dao/RecordSegDao.java" afterDir="false" />
-    </list>
+    <list default="true" id="705e0497-dcad-4596-9793-3de72f2949f4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +99,7 @@
       <workItem from="1694092427033" duration="7888000" />
       <workItem from="1694100951044" duration="1623000" />
       <workItem from="1694163011071" duration="19330000" />
-      <workItem from="1694329491118" duration="5661000" />
+      <workItem from="1694329491118" duration="5962000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <option name="closed" value="true" />
@@ -165,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694331511131</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="查询">
+      <option name="closed" value="true" />
+      <created>1694335333329</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694335333329</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +180,8 @@
     <MESSAGE value="user 部分全部完善" />
     <MESSAGE value="查询功能" />
     <MESSAGE value="记录" />
-    <option name="LAST_COMMIT_MESSAGE" value="记录" />
+    <MESSAGE value="查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="查询" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
