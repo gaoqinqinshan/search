@@ -51,6 +51,7 @@ public interface RecordSegDao {
     int updataRecordSeg(RecordSeg recordSeg);
 
     /**
+     * 批量插入关系表
      *
      * @param relations
      * @return
