@@ -2,6 +2,7 @@ package com.search.service;
 
 import com.baomidou.mybatisplus.extension.api.R;
 import com.search.dao.RecordDao;
+import com.search.dto.RecordDto;
 import com.search.entity.Record;
 import com.search.entity.RecordSeg;
 import org.springframework.stereotype.Service;
@@ -42,6 +43,8 @@ public interface RecordServe {
      * @return
      */
     List<Record> queryRecordFilter(String word);
+
+    List<RecordDto> search(String searchInfo);
 
     /**
      * 添加记录
